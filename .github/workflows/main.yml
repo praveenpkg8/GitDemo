@@ -24,3 +24,11 @@ jobs:
           python-version: '3.7'
       - name: Check for script working
         run: echo Hello, world!
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Checkout tools repo
+        uses: actions/checkout@v2
+        with:
+          repository: praveenpkg8/GitDemo1
+          path: GitDemo1
