@@ -32,3 +32,5 @@ jobs:
         with:
           repository: praveenpkg8/GitDemo1
           path: GitDemo1
+      - name: Testing file
+        run: python3 ci_file_demo.py
