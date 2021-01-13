@@ -35,4 +35,4 @@ jobs:
       - name: Testing file
         run: ls GitDemo1
       - name: Checking python file
-        run: python3 ci_file_demo.py
+        run: python3 GitDemo1/ci_file_demo.py
